@@ -1,0 +1,155 @@
+*, body {
+    margin: 0;
+    padding: 10;
+    box-sizing: border-box;
+}
+
+
+#menu-h ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #2b2929;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-h ul li a:hover {
+    background-color: #8f0808;
+}
+
+#menu-h ul li:last-child {
+    float: right;
+}
+
+#box {
+    background-color: #2b2929;
+    border-radius: 12px;
+    padding: 0;
+    margin: 1px;
+}
+
+#box2 {
+    background-color: #2b2929;
+    border-radius: 12px;
+    margin: 1px;
+}
+
+#box3 {
+    background-color: #2b2929;
+    border-radius: 12px;
+    margin: 1px;
+}
+
+#sub {    
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+#sub li {
+    display: flex;
+}
+
+#sub li a {
+    color: white;
+    padding: 15px;
+    text-align: center;    
+    text-decoration: none;
+    border-radius: 12px;    
+    transition: background .3s;
+}
+
+#sub li a:hover {
+    background-color: #8f0808;
+}
+
+#sub li:last-child {
+    float: center;
+}
+.text-center {
+    font-weight: bold;
+    margin: 15px;
+}
+
+.searchInput {
+    text-align: center;
+    align-items: center;
+    border-radius: 15px;
+    width: 100px;
+}
+
+.alert {
+    position: absolute;
+    z-index: 998;
+    top: 15px;
+    left: 15px;
+}
+
+#rodape {
+    position: fixed;
+    bottom: 0;
+    background-color: #2b2929;
+    color: #FFF;
+    width: 100%;    
+    height: 25px;    
+    text-align: center;
+    line-height: 25px;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+
+.norte{
+    fill: #63ab3f;
+}
+
+.nordeste{
+    fill: #f8b541
+}
+
+.centro-oeste{
+    fill: #ffae70;
+}
+
+.sudeste{
+    fill: #4fa4b8;
+}
+
+.sul{
+    fill: #686f99;
+}
+
+path{
+    fill: #1dafa2;
+    stroke: white;
+    stroke-width: 1px;
+}
+
+path:hover{
+    fill:#8f0808;
+    stroke: white;
+    stroke-width: 3px;
+    transition: fill 0.4s;
+}
+
